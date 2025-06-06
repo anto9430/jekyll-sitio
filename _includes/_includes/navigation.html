@@ -1,0 +1,7 @@
+<nav>
+  {% for item in site.nav %}
+    <a href="{{ item.url }}" {% if page.url = item.url %}class="active"{% endif %}>
+      {{ item.title }}
+    </a>
+  {% endfor %}
+</nav>
