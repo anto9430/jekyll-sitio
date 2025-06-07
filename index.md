@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Mi primer Sitio Jekyll
+header_image: destacada.jpg
 ---
 
 # Mi primer Sitio Jekyll

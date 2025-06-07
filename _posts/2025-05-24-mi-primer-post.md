@@ -6,9 +6,3 @@ categories: jekyll ejercicio
 ---
 Este es mi primer post personalizado agregado a la plantilla.
 Aquí puedo escribir texto, insertar **Markdown**, imágenes y más.
-
-Con esta configuración de menú:
-
-- Inicio: [/](/)
-- Sobre mí: [/about](/about)
-- Contacto: [/contact](/contact)
