@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: Contacto
+permalink: /contact/
 ---
 
 # Contáctame

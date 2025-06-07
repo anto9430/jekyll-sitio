@@ -11,3 +11,6 @@ header_links:
     url: /about
   - title: Contacto
     url: /contact
+
+    sass:
+      quiet: true
