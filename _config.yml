@@ -3,6 +3,8 @@ description: Este es mi primer sitio usando Jekyll
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-remote-theme
 
 header_links:
   - title: Inicio
