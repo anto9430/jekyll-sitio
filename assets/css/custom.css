@@ -1,0 +1,9 @@
+/* Para la imagen de fondo solo en la página de inicio */
+.home-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), 
+              url('../images/destacada.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 8rem 1rem;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}

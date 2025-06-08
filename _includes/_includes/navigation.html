@@ -1,7 +1,34 @@
-<nav>
-  {% for item in site.nav %}
-    <a href="{{ item.url }}" {% if page.url = item.url %}class="active"{% endif %}>
-      {{ item.title }}
+<nav class="navigation">
+  {% for link in site.header_links %}
+    <a href="{{ link.url }}" class="btn{% if page.url == link.url %} btn-active{% endif %}">
+      {{ link.title }}
     </a>
   {% endfor %}
 </nav>
+
+<style>
+.navigation {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.navigation a.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 0 5px;
+  background-color: #159957;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.navigation a.btn:hover {
+  background-color: #0d724a;
+}
+
+.navigation a.btn-active {
+  background-color: #0d724a;
+  font-weight: bold;
+}
+</style>

@@ -1,8 +1,9 @@
 title: Mi primer sitio Jekyll
 description: Este es mi primer sitio usando Jekyll
-show_downloads: true
-google_analytics:
 theme: jekyll-theme-cayman
+
+url: "https://anto9430.github.io"  
+baseurl: "/jekyll-sitio"              
 
 header_links:
   - title: Inicio
@@ -12,5 +13,5 @@ header_links:
   - title: Contacto
     url: /contact
 
-    sass:
-      quiet: true
+sass:
+  quiet: true
